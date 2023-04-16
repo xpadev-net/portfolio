@@ -1,4 +1,5 @@
 import { TimelineItem } from "@/components/timeline/timelineItem";
+import { Anchor } from "@/components/anchor";
 
 type props = {
   id?: string;
@@ -6,7 +7,8 @@ type props = {
 
 const Timeline = ({ id }: props) => {
   return (
-    <div id={id}>
+    <div>
+      <Anchor id={id} />
       <h2>Timeline</h2>
       <TimelineItem date={"2023年4月"}>
         <h3>技育CAMP vol2 参加</h3>

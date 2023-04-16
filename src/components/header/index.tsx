@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Styles from "./Styles.module.scss";
 import Image from "next/image";
+import { Anchor } from "@/components/anchor";
 
 type props = {
   id: string;
@@ -8,8 +9,9 @@ type props = {
 
 const Header = ({ id }: props) => {
   return (
-    <header className={Styles.header} id={id}>
-      <h1 className={Styles.siteName}>
+    <header className={Styles.header}>
+      <div className={Styles.siteName}>
+        <Anchor id={id} />
         <Image
           className={Styles.icon}
           src={"/icons/profile.jpg"}
@@ -17,8 +19,8 @@ const Header = ({ id }: props) => {
           width={40}
           height={40}
         />
-        <span className={Styles.span}>XPA</span>
-      </h1>
+        <h1 className={Styles.span}>XPA</h1>
+      </div>
       <nav className={Styles.nav}>
         <a href={"#home"} className={Styles.link}>
           Home
