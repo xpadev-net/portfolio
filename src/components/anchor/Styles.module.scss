@@ -2,6 +2,13 @@
   position: relative;
   .anchor {
     position: absolute;
-    top: -80px;
+    top: -20px;
+  }
+}
+@media (max-width: 600px) {
+  .wrapper {
+    .anchor {
+      top: -80px;
+    }
   }
 }
