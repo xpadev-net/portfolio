@@ -2,9 +2,13 @@ import Link from "next/link";
 import Styles from "./Styles.module.scss";
 import Image from "next/image";
 
-const Header = () => {
+type props = {
+  id: string;
+};
+
+const Header = ({ id }: props) => {
   return (
-    <header className={Styles.header}>
+    <header className={Styles.header} id={id}>
       <h1 className={Styles.siteName}>
         <Image
           className={Styles.icon}

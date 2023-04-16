@@ -1,5 +1,11 @@
+import { Header } from "@/components/header";
+
 const Index = () => {
-  return <div></div>;
+  return (
+    <>
+      <Header id={"home"} />
+    </>
+  );
 };
 
 export default Index;
