@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  .siteName {
+    display: flex;
+    margin: 0 30px;
+    height: 80px;
+    padding: 10px;
+    .icon {
+      border-radius: 49%;
+      height: 100%;
+      width: auto;
+      margin-right: 20px;
+    }
+    .span {
+      line-height: 60px;
+    }
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding: 10px;
+    line-height: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 5px 20px;
+    border-radius: 10px;
+    display: flex;
+    font-family: system-ui, -apple-system, segoe ui, Roboto, Ubuntu, Cantarell,
+      noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol,
+      noto color emoji;
+    .link {
+      padding: 10px;
+      border-radius: 10px;
+      font-weight: bold;
+      color: black;
+      text-decoration: none;
+      display: block;
+      height: 40px;
+      &:hover {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    .nav {
+      width: calc(100% - 20px);
+    }
+    .siteName {
+      margin-top: 80px;
+    }
+  }
+}
