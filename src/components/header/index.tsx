@@ -20,16 +20,16 @@ const Header = ({ id }: props) => {
         <span className={Styles.span}>XPA</span>
       </h1>
       <nav className={Styles.nav}>
-        <Link href={"#home"} className={Styles.link}>
+        <a href={"#home"} className={Styles.link}>
           Home
-        </Link>
-        <Link href={"#products"} className={Styles.link}>
+        </a>
+        <a href={"#products"} className={Styles.link}>
           Products
-        </Link>
-        <Link href={"#profile"} className={Styles.link}>
+        </a>
+        <a href={"#profile"} className={Styles.link}>
           Profile
-        </Link>
-        <Link
+        </a>
+        <a
           href={"https://twitter.com/xpadev"}
           target={"_blank"}
           className={Styles.link}
@@ -40,8 +40,8 @@ const Header = ({ id }: props) => {
             width={20}
             height={20}
           />
-        </Link>
-        <Link
+        </a>
+        <a
           href={"https://github.com/xpadev-net"}
           target={"_blank"}
           className={Styles.link}
@@ -52,7 +52,7 @@ const Header = ({ id }: props) => {
             width={20}
             height={20}
           />
-        </Link>
+        </a>
       </nav>
     </header>
   );
