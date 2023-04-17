@@ -7,7 +7,7 @@ type props = {
 const Package = ({ url }: props) => {
   return (
     <a href={url} target={"_blank"} className={Styles.wrapper}>
-      <img src={"/icons/package.svg"} alt={"github"} width={20} height={20} />
+      <img src={"/icons/package.svg"} alt={"package"} width={20} height={20} />
       <span className={Styles.text}>{url}</span>
     </a>
   );

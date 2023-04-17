@@ -4,13 +4,13 @@ type props = {
   url: string;
 };
 
-const Web = ({ url }: props) => {
+const Twitter = ({ url }: props) => {
   return (
     <a href={url} target={"_blank"} className={Styles.wrapper}>
-      <img src={"/icons/web.svg"} alt={"github"} width={20} height={20} />
+      <img src={"/icons/twitter.svg"} alt={"twitter"} width={20} height={20} />
       <span className={Styles.text}>{url}</span>
     </a>
   );
 };
 
-export { Web };
+export { Twitter };

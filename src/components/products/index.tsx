@@ -1,10 +1,7 @@
 import { Product } from "@/components/products/product";
 import Styles from "./Styles.module.scss";
 import { Anchor } from "@/components/anchor";
-import { GitHub } from "@/components/products/product/links/github";
-import { Docs } from "@/components/products/product/links/document";
-import { Web } from "@/components/products/product/links/web";
-import { Package } from "@/components/products/product/links/package";
+import { GitHub, Docs, Web, Package } from "@/components/links";
 
 type props = {
   id?: string;

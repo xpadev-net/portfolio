@@ -34,30 +34,6 @@ const Header = ({ id }: props) => {
         <a href={"#profile"} className={Styles.link}>
           Profile
         </a>
-        <a
-          href={"https://twitter.com/xpadev"}
-          target={"_blank"}
-          className={Styles.link}
-        >
-          <Image
-            src={"/icons/twitter.svg"}
-            alt={"twitter"}
-            width={20}
-            height={20}
-          />
-        </a>
-        <a
-          href={"https://github.com/xpadev-net"}
-          target={"_blank"}
-          className={Styles.link}
-        >
-          <Image
-            src={"/icons/github.svg"}
-            alt={"twitter"}
-            width={20}
-            height={20}
-          />
-        </a>
       </nav>
     </header>
   );
