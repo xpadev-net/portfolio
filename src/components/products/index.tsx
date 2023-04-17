@@ -66,6 +66,9 @@ const Products = ({ id }: props) => {
           }
         >
           <GitHub url={"https://github.com/xpadev-net/niwango.js"} />
+          <Web
+            url={"https://xpadev-net.github.io/niconicomments/sample/?video=23"}
+          />
           <p>ブラウザ上で動くニワン語エンジン</p>
         </Product>
         <Product
