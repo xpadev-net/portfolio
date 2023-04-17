@@ -12,7 +12,7 @@ type props = {
 
 const Products = ({ id }: props) => {
   return (
-    <div className={Styles.wrapper}>
+    <section className={Styles.wrapper}>
       <Anchor id={id} />
       <h2>Products</h2>
       <div className={Styles.container}>
@@ -148,7 +148,7 @@ const Products = ({ id }: props) => {
           <p>ハッカソンにおけるアイディア出しを促進するためのツール</p>
         </Product>
       </div>
-    </div>
+    </section>
   );
 };
 

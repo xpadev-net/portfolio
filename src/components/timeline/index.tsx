@@ -7,7 +7,7 @@ type props = {
 
 const Timeline = ({ id }: props) => {
   return (
-    <div>
+    <section>
       <Anchor id={id} />
       <h2>Timeline</h2>
       <TimelineItem date={"2023年4月"}>
@@ -142,7 +142,7 @@ const Timeline = ({ id }: props) => {
         </h3>
         <p>ニコニコ互換のコメント描画ライブラリ</p>
       </TimelineItem>
-    </div>
+    </section>
   );
 };
 
