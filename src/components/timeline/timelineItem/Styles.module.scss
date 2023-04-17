@@ -1,23 +1,24 @@
 .item {
-  border-left: 5px solid darkblue;
+  border-left: 6px solid darkblue;
   display: flex;
   flex-direction: column;
   padding: 10px 0 10px 10px;
   margin: 0 10px;
   position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: -3px;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background-color: cornflowerblue;
+    transform: translate(-50%, -50%);
+  }
   .date {
     font-size: 0.8em;
     width: 200px;
-    &::before {
-      content: "";
-      position: absolute;
-      top: 15px;
-      left: -7.5px;
-      border-radius: 5px;
-      width: 10px;
-      height: 10px;
-      background-color: cornflowerblue;
-    }
   }
   .content {
     width: 100%;
