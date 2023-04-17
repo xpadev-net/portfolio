@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Styles from "./Styles.module.scss";
 import Image from "next/image";
 import { Anchor } from "@/components/anchor";
