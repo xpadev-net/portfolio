@@ -25,6 +25,9 @@ const Header = ({ id }: props) => {
         <a href={"#home"} className={Styles.link}>
           Home
         </a>
+        <a href={"#timeline"} className={Styles.link}>
+          Timeline
+        </a>
         <a href={"#products"} className={Styles.link}>
           Products
         </a>

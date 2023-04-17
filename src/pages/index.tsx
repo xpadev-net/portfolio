@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className={Styles.wrapper}>
       <Header id={"home"} />
-      <Timeline id={"products"} />
+      <Timeline id={"timeline"} />
     </div>
   );
 };
