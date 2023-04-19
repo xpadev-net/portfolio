@@ -147,6 +147,10 @@ const Products = ({ id }: props) => {
           <p>技育CAMP2023 vol2で制作したプロダクト</p>
           <p>ハッカソンにおけるアイディア出しを促進するためのツール</p>
         </Product>
+        <Product title={"ポートフォリオ"} id={"p_portfolio"}>
+          <GitHub url={"https://github.com/xpadev-net/portfolio"} />
+          <p>放置していたドメインを活用するために作ったポートフォリオ</p>
+        </Product>
       </div>
     </section>
   );
