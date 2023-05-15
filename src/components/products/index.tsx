@@ -51,7 +51,7 @@ const Products = ({ id }: props) => {
           }
         >
           <GitHub url={"https://github.com/xpadev-net/gyaodl/"} />
-          <Pypi url={"https://pypi.org/project/GyaoDL/a"} />
+          <Pypi url={"https://pypi.org/project/GyaoDL/"} />
           <p>GYAO!から動画をダウンロードするためのスクリプト</p>
         </Product>
         <Product
