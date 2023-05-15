@@ -2,6 +2,8 @@ import { Product } from "@/components/products/product";
 import Styles from "./Styles.module.scss";
 import { Anchor } from "@/components/anchor";
 import { GitHub, Docs, Web, Package } from "@/components/links";
+import { Npm } from "@/components/links/npm";
+import { Pypi } from "@/components/links/pipy";
 
 type props = {
   id?: string;
@@ -22,6 +24,9 @@ const Products = ({ id }: props) => {
         >
           <GitHub url={"https://github.com/xpadev-net/niconicomments/"} />
           <Docs url={"https://xpadev-net.github.io/niconicomments/"} />
+          <Npm
+            url={"https://www.npmjs.com/package/@xpadev-net/niconicomments"}
+          />
           <p>
             ニコニコ動画の公式プレイヤー互換の高パフォーマンスなコメント描画ライブラリ
           </p>
@@ -46,6 +51,7 @@ const Products = ({ id }: props) => {
           }
         >
           <GitHub url={"https://github.com/xpadev-net/gyaodl/"} />
+          <Pypi url={"https://pypi.org/project/GyaoDL/a"} />
           <p>GYAO!から動画をダウンロードするためのスクリプト</p>
         </Product>
         <Product
@@ -56,6 +62,7 @@ const Products = ({ id }: props) => {
           }
         >
           <GitHub url={"https://github.com/xpadev-net/abema-stream"} />
+          <Pypi url={"https://pypi.org/project/AbemaStream/"} />
           <p>Abemaの生配信を録画するためのスクリプト</p>
         </Product>
         <Product
@@ -149,6 +156,7 @@ const Products = ({ id }: props) => {
         </Product>
         <Product title={"ポートフォリオ"} id={"p_portfolio"}>
           <GitHub url={"https://github.com/xpadev-net/portfolio"} />
+          <Web url={"https://xpadev.net/"} />
           <p>放置していたドメインを活用するために作ったポートフォリオ</p>
         </Product>
       </div>
