@@ -159,6 +159,11 @@ const Products = ({ id }: props) => {
           <Web url={"https://xpadev.net/"} />
           <p>放置していたドメインを活用するために作ったポートフォリオ</p>
         </Product>
+        <Product title={"わりかんじ"} id={"p_warikanji"}>
+          <GitHub url={"https://github.com/geekcamp2023-vol5-team31/"} />
+          <Web url={"https://warikanji.xpadev.net/"} />
+          <p>割り勘管理用のwebアプリ</p>
+        </Product>
       </div>
     </section>
   );
