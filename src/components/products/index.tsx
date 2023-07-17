@@ -164,6 +164,21 @@ const Products = ({ id }: props) => {
           <Web url={"https://warikanji.xpadev.net/"} />
           <p>割り勘管理用のwebアプリ</p>
         </Product>
+        <Product
+          title={"図書管理ゴースト"}
+          id={"p_tosho_kanri_ghost"}
+          thumbnail={
+            "https://opengraph.githubassets.com/85decd54bec44bd167f973699c207ca26fa4281315c38e6bb8ddfaafe6013f62/tamago-kake-gohan/tosho-kanri-ghost-server"
+          }
+        >
+          <GitHub
+            url={
+              "https://github.com/tamago-kake-gohan/tosho-kanri-ghost-server"
+            }
+          />
+          <p>技育CAMP2023 vol6で制作したプロダクト</p>
+          <p>知り合い間での図書の貸し借りを促進するプロダクト</p>
+        </Product>
       </div>
     </section>
   );

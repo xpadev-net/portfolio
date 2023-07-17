@@ -10,7 +10,14 @@ const Timeline = ({ id }: props) => {
     <section>
       <Anchor id={id} />
       <h2>Timeline</h2>
-      <TimelineItem date={"2023年6月"}>
+      <TimelineItem date={"2023年7月"}>
+        <h3>技育CAMP vol6 参加</h3>
+        <p>
+          <a href={"#p_tosho_kanri_ghost"}>「図書管理ゴースト」</a>
+          で最優秀賞を受賞
+        </p>
+      </TimelineItem>
+      <TimelineItem date={"2023年7月"}>
         <h3>技育CAMP vol5 参加</h3>
         <p>惨敗</p>
         <p>
