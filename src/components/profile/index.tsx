@@ -13,7 +13,7 @@ const Profile = ({ id }: props) => {
       <Anchor id={id} />
       <h2>Profile</h2>
       <div className={Styles.card}>
-        <p>そこら辺の高校生</p>
+        <p>そこら辺の学生</p>
         <p>自宅サーバーはいいぞ！</p>
         <GitHub url={"https://github.com/xpadev-net"} />
         <Zenn url={"https://zenn.dev/xpadev"} />
