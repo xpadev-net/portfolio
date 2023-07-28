@@ -1,4 +1,4 @@
-import { Product } from "@/components/products/product";
+import { Card } from "@/components/card";
 import Styles from "./Styles.module.scss";
 import { Anchor } from "@/components/anchor";
 import { GitHub, Docs, Web, Package } from "@/components/links";
@@ -15,7 +15,7 @@ const Products = ({ id }: props) => {
       <Anchor id={id} />
       <h2>Products</h2>
       <div className={Styles.container}>
-        <Product
+        <Card
           title={"niconicomments"}
           id={"p_niconicomments"}
           thumbnail={
@@ -30,8 +30,8 @@ const Products = ({ id }: props) => {
           <p>
             ニコニコ動画の公式プレイヤー互換の高パフォーマンスなコメント描画ライブラリ
           </p>
-        </Product>
-        <Product
+        </Card>
+        <Card
           title={"niconicomments-convert"}
           id={"p_niconicomments-convert"}
           thumbnail={
@@ -42,8 +42,8 @@ const Products = ({ id }: props) => {
             url={"https://github.com/xpadev-net/niconicomments-convert/"}
           />
           <p>動画にニコニコのコメントをのせて書き出す簡易ツール</p>
-        </Product>
-        <Product
+        </Card>
+        <Card
           title={"GyaoDL"}
           id={"p_gyaodl"}
           thumbnail={
@@ -53,8 +53,8 @@ const Products = ({ id }: props) => {
           <GitHub url={"https://github.com/xpadev-net/gyaodl/"} />
           <Pypi url={"https://pypi.org/project/GyaoDL/"} />
           <p>GYAO!から動画をダウンロードするためのスクリプト</p>
-        </Product>
-        <Product
+        </Card>
+        <Card
           title={"AbemaStream"}
           id={"p_abemastream"}
           thumbnail={
@@ -64,8 +64,8 @@ const Products = ({ id }: props) => {
           <GitHub url={"https://github.com/xpadev-net/abema-stream"} />
           <Pypi url={"https://pypi.org/project/AbemaStream/"} />
           <p>Abemaの生配信を録画するためのスクリプト</p>
-        </Product>
-        <Product
+        </Card>
+        <Card
           title={"niwango.js"}
           id={"p_niwango_js"}
           thumbnail={
@@ -77,8 +77,8 @@ const Products = ({ id }: props) => {
             url={"https://xpadev-net.github.io/niconicomments/sample/?video=23"}
           />
           <p>ブラウザ上で動くニワン語エンジン</p>
-        </Product>
-        <Product
+        </Card>
+        <Card
           title={"AnimeFreeStats"}
           id={"p_animefreestats"}
           thumbnail={
@@ -88,17 +88,17 @@ const Products = ({ id }: props) => {
           <GitHub url={"https://github.com/xpadev-net/animefreestats"} />
           <Web url={"https://animefreestats.vercel.app/"} />
           <p>アニメの無料配信情報をまとめて見ることができるサービス</p>
-        </Product>
-        <Product title={"NicoMemory"} id={"p_nicomemory"}>
+        </Card>
+        <Card title={"NicoMemory"} id={"p_nicomemory"}>
           <Web url={"https://nicomemory.vercel.app/"} />
           <p>niconicommentsを活用したマイメモリーのようなサービス</p>
-        </Product>
-        <Product title={"ついーとかけごはん"} id={"p_tweetkakegohan"}>
+        </Card>
+        <Card title={"ついーとかけごはん"} id={"p_tweetkakegohan"}>
           <p>技育CAMP vol10で制作したプロダクト</p>
           <p>チームはvol9と同じ</p>
           <p>ツイートした内容がものに変換されて画面に降ってくるツール</p>
-        </Product>
-        <Product
+        </Card>
+        <Card
           title={"たーみなるかけごはん"}
           id={"p_terminalkakegohan"}
           thumbnail={
@@ -108,8 +108,8 @@ const Products = ({ id }: props) => {
           <GitHub url={"https://github.com/RyotaKITA-12/terminalKakeGohan"} />
           <p>技育CAMP vol9で制作したプロダクト</p>
           <p>macのターミナルのテーマを編集することができるアプリ</p>
-        </Product>
-        <Product
+        </Card>
+        <Card
           title={"マジスケ"}
           id={"p_magische"}
           thumbnail={
@@ -122,8 +122,8 @@ const Products = ({ id }: props) => {
           <p>
             Googleカレンダーと連携することで参加可否を自動で入力してくれる日程調整ツール
           </p>
-        </Product>
-        <Product
+        </Card>
+        <Card
           title={"コードコネクト"}
           id={"p_codeconnect"}
           thumbnail={
@@ -133,8 +133,8 @@ const Products = ({ id }: props) => {
           <GitHub url={"https://github.com/GiikuCAMPvol1/"} />
           <p>技育CAMP2023 vol1で制作したプロダクト</p>
           <p>プログラミング版GarticPhone</p>
-        </Product>
-        <Product
+        </Card>
+        <Card
           title={"video_host_frontend"}
           id={"p_video_host_frontend"}
           thumbnail={
@@ -148,23 +148,23 @@ const Products = ({ id }: props) => {
             }
           />
           <p>自宅サーバー上で運用しているメディアサーバーのフロントエンド</p>
-        </Product>
-        <Product title={"技育カンプ"} id={"p_geekcomp"}>
+        </Card>
+        <Card title={"技育カンプ"} id={"p_geekcomp"}>
           <GitHub url={"https://github.com/geekcamp2023-vol2-team31"} />
           <p>技育CAMP2023 vol2で制作したプロダクト</p>
           <p>ハッカソンにおけるアイディア出しを促進するためのツール</p>
-        </Product>
-        <Product title={"ポートフォリオ"} id={"p_portfolio"}>
+        </Card>
+        <Card title={"ポートフォリオ"} id={"p_portfolio"}>
           <GitHub url={"https://github.com/xpadev-net/portfolio"} />
           <Web url={"https://xpadev.net/"} />
           <p>放置していたドメインを活用するために作ったポートフォリオ</p>
-        </Product>
-        <Product title={"わりかんじ"} id={"p_warikanji"}>
+        </Card>
+        <Card title={"わりかんじ"} id={"p_warikanji"}>
           <GitHub url={"https://github.com/geekcamp2023-vol5-team31/"} />
           <Web url={"https://warikanji.xpadev.net/"} />
           <p>割り勘管理用のwebアプリ</p>
-        </Product>
-        <Product
+        </Card>
+        <Card
           title={"図書管理ゴースト"}
           id={"p_tosho_kanri_ghost"}
           thumbnail={
@@ -178,7 +178,7 @@ const Products = ({ id }: props) => {
           />
           <p>技育CAMP2023 vol6で制作したプロダクト</p>
           <p>知り合い間での図書の貸し借りを促進するプロダクト</p>
-        </Product>
+        </Card>
       </div>
     </section>
   );

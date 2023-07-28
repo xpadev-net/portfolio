@@ -4,6 +4,7 @@ import { Timeline } from "@/components/timeline";
 import { Products } from "@/components/products";
 import { Profile } from "@/components/profile";
 import Head from "next/head";
+import { Works } from "@/components/works";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Header id={"home"} />
       <Timeline id={"timeline"} />
       <Products id={"products"} />
+      <Works id={"works"} />
       <Profile id={"profile"} />
     </div>
   );

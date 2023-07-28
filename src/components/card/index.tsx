@@ -9,7 +9,7 @@ type props = {
   children: ReactNode;
 };
 
-const Product = ({ id, thumbnail, title, children }: props) => {
+const Card = ({ id, thumbnail, title, children }: props) => {
   return (
     <div className={Styles.wrapper}>
       <Anchor id={id} />
@@ -22,4 +22,4 @@ const Product = ({ id, thumbnail, title, children }: props) => {
   );
 };
 
-export { Product };
+export { Card };

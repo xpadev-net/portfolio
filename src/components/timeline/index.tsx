@@ -25,6 +25,13 @@ const Timeline = ({ id }: props) => {
         </p>
       </TimelineItem>
       <TimelineItem date={"2023年6月"}>
+        <h3>業務委託請負</h3>
+        <p>
+          <a href={"#w_techtrain_lp"}>TechBowl様 学校法人向けLP</a>
+          のコーディングを担当
+        </p>
+      </TimelineItem>
+      <TimelineItem date={"2023年6月"}>
         <h3>技育CAMP アドバンス vol2 参加</h3>
         <p>惨敗</p>
         <p>
