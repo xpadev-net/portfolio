@@ -30,6 +30,9 @@ const Header = ({ id }: props) => {
         <a href={"#products"} className={Styles.link}>
           Products
         </a>
+        <a href={"#works"} className={Styles.link}>
+          Works
+        </a>
         <a href={"#profile"} className={Styles.link}>
           Profile
         </a>
