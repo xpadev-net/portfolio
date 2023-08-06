@@ -179,6 +179,19 @@ const Products = ({ id }: props) => {
           <p>技育CAMP2023 vol6で制作したプロダクト</p>
           <p>知り合い間での図書の貸し借りを促進するプロダクト</p>
         </Card>
+        <Card
+          title={"GeekMeet"}
+          id={"p_geekmeet"}
+          thumbnail={
+            "https://opengraph.githubassets.com/214527ea0ba53846be7266c12925436167252298f08b5d13a67199a15cde8f1b/xpadev-net/geekmeet_frontend"
+          }
+        >
+          <GitHub url={"https://github.com/xpadev-net/geekmeet_frontend"} />
+          <GitHub url={"https://github.com/xpadev-net/geekmeet_backend"} />
+          <Web url={"https://geekmeet.xpadev.net/"} />
+          <p>技育CAMP2023 vol7で制作したプロダクト</p>
+          <p>mesh方式のWebRTCで通話できるアプリ</p>
+        </Card>
       </div>
     </section>
   );
