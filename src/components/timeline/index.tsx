@@ -11,6 +11,13 @@ const Timeline = ({ id }: props) => {
       <Anchor id={id} />
       <h2>Timeline</h2>
       <TimelineItem date={"2023年8月"}>
+        <h3>技育展2023 予選 参加</h3>
+        <p>
+          <a href={"#p_niwango_js"}>「niwango.js」</a>
+          で関東②ブロックを通過
+        </p>
+      </TimelineItem>
+      <TimelineItem date={"2023年8月"}>
         <h3>技育CAMP vol7 参加</h3>
         <p>
           <a href={"#p_geekmeet"}>「GeekMeet」</a>
@@ -151,7 +158,7 @@ const Timeline = ({ id }: props) => {
         </h3>
       </TimelineItem>
       <TimelineItem date={"2022年9月"}>
-        <h3>技育展 登壇</h3>
+        <h3>技育展2022 登壇</h3>
         <p>無駄開発部門にniconicommentsで参加</p>
         <p>優秀賞を受賞</p>
       </TimelineItem>
