@@ -13,6 +13,11 @@ const Timeline = ({ id }: props) => {
       <TimelineItem date={"2023年8月"}>
         <h3>技育展2023 予選 参加</h3>
         <p>
+          <a href={"#p_magische"}>「マジスケ」</a>、
+          <a href={"#p_geekcomp"}>「技育カンプ」</a>
+          でエリア混合・海外ブロックに参加
+        </p>
+        <p>
           <a href={"#p_niwango_js"}>「niwango.js」</a>
           で関東②ブロックを通過
         </p>
