@@ -15,11 +15,14 @@ const Timeline = ({ id }: props) => {
         <p>
           <a href={"#p_magische"}>「マジスケ」</a>、
           <a href={"#p_geekcomp"}>「技育カンプ」</a>
-          でエリア混合・海外ブロックに参加
+          でエリア混合・海外ブロックに、
+          <a href={"#p_niwango_js"}>「niwango.js」</a>
+          で関東②ブロックに参加
         </p>
         <p>
+          <a href={"#p_magische"}>「マジスケ」</a>、
           <a href={"#p_niwango_js"}>「niwango.js」</a>
-          で関東②ブロックを通過
+          で予選通過
         </p>
       </TimelineItem>
       <TimelineItem date={"2023年8月"}>
