@@ -10,6 +10,16 @@ const Timeline = ({ id }: props) => {
     <section>
       <Anchor id={id} />
       <h2>Timeline</h2>
+      <TimelineItem date={"2023年9月"}>
+        <h3>技育CAMPアドバンス Vol.3 参加</h3>
+        <p>
+          <a href={"#p_tosho_kanri_ghost"}>「図書管理ゴースト」</a>・
+          <a href={"#p_geekmeet"}>「GeekMeet」</a>で参加
+        </p>
+        <p>
+          <a href={"#p_geekmeet"}>「GeekMeet」</a>で副大賞を受賞
+        </p>
+      </TimelineItem>
       <TimelineItem date={"2023年8月"}>
         <h3>技育展2023 予選 参加</h3>
         <p>
@@ -54,7 +64,7 @@ const Timeline = ({ id }: props) => {
         </p>
       </TimelineItem>
       <TimelineItem date={"2023年6月"}>
-        <h3>技育CAMP アドバンス vol2 参加</h3>
+        <h3>技育CAMPアドバンス Vol.2 参加</h3>
         <p>惨敗</p>
         <p>
           <a href={"#p_codeconnect"}>「コードコネクト」</a>・
@@ -108,7 +118,11 @@ const Timeline = ({ id }: props) => {
         </p>
       </TimelineItem>
       <TimelineItem date={"2023年3月"}>
-        <h3>技育CAMP アドバンス 参加</h3>
+        <h3>技育CAMPアドバンス Vol.1 参加</h3>
+        <p>
+          <a href={"#p_tweetkakegohan"}>「ついーとかけごはん」</a>・
+          <a href={"#p_magische"}>「マジスケ」</a>で参加
+        </p>
         <p>
           <a href={"#p_tweetkakegohan"}>「ついーとかけごはん」</a>
           で企業賞(CARTA)を受賞
