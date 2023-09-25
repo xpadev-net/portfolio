@@ -11,6 +11,22 @@ const Timeline = ({ id }: props) => {
       <Anchor id={id} />
       <h2>Timeline</h2>
       <TimelineItem date={"2023年9月"}>
+        <h3>技育展2023 決勝戦 参加</h3>
+        <p>
+          <a href={"#p_magische"}>「マジスケ」</a>、
+          <a href={"#p_niwango_js"}>「niwango.js」</a>
+          でDグループに参加
+        </p>
+        <p>
+          <a href={"#p_magische"}>「マジスケ」</a>
+          で企業賞(CyberAgent)を受賞
+        </p>
+      </TimelineItem>
+      <TimelineItem date={"2023年9月"}>
+        <h3>技育CAMP vol9 参加</h3>
+        <p>惨敗</p>
+      </TimelineItem>
+      <TimelineItem date={"2023年9月"}>
         <h3>技育CAMPアドバンス Vol.3 参加</h3>
         <p>
           <a href={"#p_tosho_kanri_ghost"}>「図書管理ゴースト」</a>・
