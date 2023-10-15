@@ -24,6 +24,7 @@ const Timeline = ({ id }: props) => {
       </TimelineItem>
       <TimelineItem date={"2023年9月"}>
         <h3>技育CAMP vol9 参加</h3>
+        <p>チーム: 旅行大好き(即席)</p>
         <p>惨敗</p>
       </TimelineItem>
       <TimelineItem date={"2023年9月"}>
@@ -53,6 +54,7 @@ const Timeline = ({ id }: props) => {
       </TimelineItem>
       <TimelineItem date={"2023年8月"}>
         <h3>技育CAMP vol7 参加</h3>
+        <p>チーム: GeekMeet(個人)</p>
         <p>
           <a href={"#p_geekmeet"}>「GeekMeet」</a>
           で最優秀賞を受賞
@@ -60,6 +62,7 @@ const Timeline = ({ id }: props) => {
       </TimelineItem>
       <TimelineItem date={"2023年7月"}>
         <h3>技育CAMP vol6 参加</h3>
+        <p>チーム: たまごかけごはん/TKG</p>
         <p>
           <a href={"#p_tosho_kanri_ghost"}>「図書管理ゴースト」</a>
           で最優秀賞を受賞
@@ -67,6 +70,7 @@ const Timeline = ({ id }: props) => {
       </TimelineItem>
       <TimelineItem date={"2023年7月"}>
         <h3>技育CAMP vol5 参加</h3>
+        <p>チーム: 限界コーダー(即席)</p>
         <p>惨敗</p>
         <p>
           <a href={"#p_warikanji"}>「わりかんじ」</a>で参加
@@ -93,6 +97,7 @@ const Timeline = ({ id }: props) => {
       </TimelineItem>
       <TimelineItem date={"2023年6月"}>
         <h3>技育CAMP vol4 参加</h3>
+        <p>チーム: すもももももももものうち(個人)</p>
         <p>惨敗</p>
       </TimelineItem>
       <TimelineItem date={"2023年5月"}>
@@ -103,6 +108,7 @@ const Timeline = ({ id }: props) => {
       </TimelineItem>
       <TimelineItem date={"2023年5月"}>
         <h3>技育CAMP vol3 参加</h3>
+        <p>チーム: BookScope(DevSecOpsThonメンバー)</p>
         <p>惨敗</p>
       </TimelineItem>
       <TimelineItem date={"2023年4月"}>
@@ -117,6 +123,7 @@ const Timeline = ({ id }: props) => {
       </TimelineItem>
       <TimelineItem date={"2023年4月"}>
         <h3>技育CAMP vol2 参加</h3>
+        <p>チーム: 技育CAMPのアイディア出しをサポーターズ(即席)</p>
         <p>
           <a href={"#p_geekcomp"}>「技育カンプ」</a>で努力賞を受賞
         </p>
@@ -129,6 +136,7 @@ const Timeline = ({ id }: props) => {
       </TimelineItem>
       <TimelineItem date={"2023年3月"}>
         <h3>技育CAMP vol1 参加</h3>
+        <p>チーム: コードコネクト(Twitter即席)</p>
         <p>
           <a href={"#p_codeconnect"}>「コードコネクト」</a>で努力賞を受賞
         </p>
@@ -156,18 +164,21 @@ const Timeline = ({ id }: props) => {
       </TimelineItem>
       <TimelineItem date={"2023年2月"}>
         <h3>技育CAMP vol11 参加</h3>
+        <p>チーム: ツイートかけご飯/TKG</p>
         <p>
           <a href={"#p_magische"}>「マジスケ」</a>で努力賞を受賞
         </p>
       </TimelineItem>
       <TimelineItem date={"2023年1月"}>
         <h3>技育CAMP vol10 参加</h3>
+        <p>チーム: ターミナルかけご飯/TKG(即席)</p>
         <p>
           <a href={"#p_tweetkakegohan"}>「ついーとかけごはん」</a>で努力賞を受賞
         </p>
       </TimelineItem>
       <TimelineItem date={"2022年12月"}>
         <h3>技育CAMP vol9 参加</h3>
+        <p>チーム: Taskshelf(即席)</p>
         <p>
           <a href={"#p_terminalkakegohan"}>「たーみなるかけごはん」</a>
           で努力賞を受賞
@@ -175,7 +186,8 @@ const Timeline = ({ id }: props) => {
       </TimelineItem>
       <TimelineItem date={"2022年11月"}>
         <h3>技育CAMP vol8 参加</h3>
-        <p>チーム全員初参加で受賞は逃したものの、得られたものは多かった</p>
+        <p>チーム: Taskshelf(即席)</p>
+        <p>惨敗</p>
       </TimelineItem>
       <TimelineItem date={"2022年11月"}>
         <h3>
