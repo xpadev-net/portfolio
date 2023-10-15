@@ -192,6 +192,20 @@ const Products = ({ id }: props) => {
           <p>技育CAMP2023 vol7で制作したプロダクト</p>
           <p>mesh方式のWebRTCで通話できるアプリ</p>
         </Card>
+        <Card
+          title={"NLog"}
+          id={"p_nlog"}
+          thumbnail={
+            "https://opengraph.githubassets.com/8ed86b234820711c62316d4c8773f8e50ce2ee080336077348db1943bb8f66a2/xpadev-net/nlog"
+          }
+        >
+          <GitHub url={"https://github.com/xpadev-net/nlog"} />
+          <GitHub url={"https://github.com/xpadev-net/nlog-cli"} />
+          <p>技育CAMP2023 vol10で制作したプロダクト</p>
+          <p>
+            ログ収集のためのCLIとWebUIでよくわからない技術スタックを詰め込みました
+          </p>
+        </Card>
       </div>
     </section>
   );
