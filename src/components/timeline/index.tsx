@@ -238,25 +238,11 @@ const Timeline = ({ id }: props) => {
         <p>コメント描画ライブラリとしてniconicommentsが採用</p>
       </TimelineItem>
       <TimelineItem date={"2022年5月"}>
-        <h3>
-          <a href={"#p_abemastream"}>AbemaStream</a> リリース
-        </h3>
-        <p>Abemaの生放送を録画するためのスクリプト</p>
-        <p>現在も自宅サーバー上で稼働中</p>
-      </TimelineItem>
-      <TimelineItem date={"2022年5月"}>
         <h3>nicotver リリース</h3>
         <p>
           nyankomaherさん作成のtver上でニコニコ実況のコメントを流せる拡張機能
         </p>
         <p>コメント描画ライブラリとしてniconicommentsが採用</p>
-      </TimelineItem>
-      <TimelineItem date={"2022年1月"}>
-        <h3>
-          <a href={"#p_gyaodl"}>GyaoDL</a> リリース
-        </h3>
-        <p>GYAO!から動画をダウンロードするためのスクリプト</p>
-        <p>サ終までの1年間自宅サーバー上で稼働し続けていた</p>
       </TimelineItem>
       <TimelineItem date={"2021年12月"}>
         <h3>

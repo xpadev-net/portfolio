@@ -3,7 +3,6 @@ import Styles from "./Styles.module.scss";
 import { Anchor } from "@/components/anchor";
 import { GitHub, Docs, Web, Package } from "@/components/links";
 import { Npm } from "@/components/links/npm";
-import { Pypi } from "@/components/links/pipy";
 
 type props = {
   id?: string;
@@ -19,7 +18,7 @@ const Products = ({ id }: props) => {
           title={"niconicomments"}
           id={"p_niconicomments"}
           thumbnail={
-            "https://repository-images.githubusercontent.com/443770545/7f29af22-32b4-4fd9-a8f3-03b6aba40b66"
+            "https://repository-images.githubusercontent.com/443770545/79d016c7-280f-4299-b072-91c483632d54"
           }
         >
           <GitHub url={"https://github.com/xpadev-net/niconicomments/"} />
@@ -44,28 +43,6 @@ const Products = ({ id }: props) => {
           <p>動画にニコニコのコメントをのせて書き出す簡易ツール</p>
         </Card>
         <Card
-          title={"GyaoDL"}
-          id={"p_gyaodl"}
-          thumbnail={
-            "https://opengraph.githubassets.com/cfd1cec39d7ee6ad3e4b42d074ee0ab902653a9f3dd5bf520f0601c39c309bb1/xpadev-net/GyaoDL"
-          }
-        >
-          <GitHub url={"https://github.com/xpadev-net/gyaodl/"} />
-          <Pypi url={"https://pypi.org/project/GyaoDL/"} />
-          <p>GYAO!から動画をダウンロードするためのスクリプト</p>
-        </Card>
-        <Card
-          title={"AbemaStream"}
-          id={"p_abemastream"}
-          thumbnail={
-            "https://opengraph.githubassets.com/916e12031df65f436e979cfb9fa5d429a6b9b385f50e3a444e721a2e25de19fa/xpadev-net/abema-stream"
-          }
-        >
-          <GitHub url={"https://github.com/xpadev-net/abema-stream"} />
-          <Pypi url={"https://pypi.org/project/AbemaStream/"} />
-          <p>Abemaの生配信を録画するためのスクリプト</p>
-        </Card>
-        <Card
           title={"niwango.js"}
           id={"p_niwango_js"}
           thumbnail={
@@ -77,17 +54,6 @@ const Products = ({ id }: props) => {
             url={"https://xpadev-net.github.io/niconicomments/sample/?video=23"}
           />
           <p>ブラウザ上で動くニワン語エンジン</p>
-        </Card>
-        <Card
-          title={"AnimeFreeStats"}
-          id={"p_animefreestats"}
-          thumbnail={
-            "https://opengraph.githubassets.com/1f6c1894b2e8e7cbecbbdaa862c9b64162f363842c826b9f73079fa7367115d2/xpadev-net/animefreestats"
-          }
-        >
-          <GitHub url={"https://github.com/xpadev-net/animefreestats"} />
-          <Web url={"https://animefreestats.vercel.app/"} />
-          <p>アニメの無料配信情報をまとめて見ることができるサービス</p>
         </Card>
         <Card title={"NicoMemory"} id={"p_nicomemory"}>
           <Web url={"https://nicomemory.vercel.app/"} />
