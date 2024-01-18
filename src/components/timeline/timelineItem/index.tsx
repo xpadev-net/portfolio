@@ -1,5 +1,6 @@
-import Styles from "./Styles.module.scss";
 import { ReactNode } from "react";
+
+import Styles from "./Styles.module.scss";
 
 type props = {
   date: string;
