@@ -1,7 +1,7 @@
-import Styles from "./Styles.module.scss";
-import { GitHub, Twitter, Zenn } from "@/components/links";
-import { Qiita } from "@/components/links/qiita";
 import { Anchor } from "@/components/anchor";
+import { GitHub, Qiita, Twitter, Zenn } from "@/components/links";
+
+import Styles from "./Styles.module.scss";
 
 type props = {
   id?: string;

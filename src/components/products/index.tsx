@@ -1,8 +1,8 @@
-import { Card } from "@/components/card";
-import Styles from "./Styles.module.scss";
 import { Anchor } from "@/components/anchor";
-import { GitHub, Docs, Web, Package } from "@/components/links";
-import { Npm } from "@/components/links/npm";
+import { Card } from "@/components/card";
+import { Docs, GitHub, Npm, Package, Web } from "@/components/links";
+
+import Styles from "./Styles.module.scss";
 
 type props = {
   id?: string;

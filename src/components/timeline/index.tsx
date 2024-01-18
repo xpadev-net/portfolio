@@ -1,5 +1,5 @@
-import { TimelineItem } from "@/components/timeline/timelineItem";
 import { Anchor } from "@/components/anchor";
+import { TimelineItem } from "@/components/timeline/timelineItem";
 
 type props = {
   id?: string;

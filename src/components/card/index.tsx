@@ -1,5 +1,7 @@
 import { ReactNode } from "react";
+
 import { Anchor } from "@/components/anchor";
+
 import Styles from "./Styles.module.scss";
 
 type props = {

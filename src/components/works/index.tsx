@@ -1,7 +1,8 @@
-import { Card } from "@/components/card";
-import Styles from "./Styles.module.scss";
 import { Anchor } from "@/components/anchor";
+import { Card } from "@/components/card";
 import { Web } from "@/components/links";
+
+import Styles from "./Styles.module.scss";
 
 type props = {
   id?: string;
