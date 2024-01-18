@@ -5,7 +5,10 @@
     "project": ["./tsconfig.eslint.json"]
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
+  "plugins": [
+    "@typescript-eslint",
+    "simple-import-sort"
+  ],
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
@@ -16,9 +19,10 @@
     "@typescript-eslint/restrict-template-expressions": "off",
     "@typescript-eslint/unbound-method": "off",
     "@typescript-eslint/no-unused-vars": "error",
+    "@next/next/no-img-element": "off",
     "no-unused-vars": "off",
     "no-control-regex": "off",
-    "@typescript-eslint/no-unsafe-member-access": 0,
-    "@typescript-eslint/no-unsafe-assignment": 0
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   }
 }
