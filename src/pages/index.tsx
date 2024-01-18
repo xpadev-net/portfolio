@@ -1,10 +1,11 @@
-import Styles from "@/styles/Index.module.css";
+import Head from "next/head";
+
 import { Header } from "@/components/header";
-import { Timeline } from "@/components/timeline";
 import { Products } from "@/components/products";
 import { Profile } from "@/components/profile";
-import Head from "next/head";
+import { Timeline } from "@/components/timeline";
 import { Works } from "@/components/works";
+import Styles from "@/styles/Index.module.css";
 
 const Index = () => {
   return (
