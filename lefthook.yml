@@ -2,4 +2,7 @@ pre-commit:
   parallel: false
   commands:
     biome:
-      run: pnpm format && pnpm eslint:fix && pnpm check-types
+      glob: "*.{ts,tsx,js,json,css,scss}"
+      run: pnpm biome check --write --files-ignore-unknown=true {staged_files}
+    types:
+      run: pnpm check-types
