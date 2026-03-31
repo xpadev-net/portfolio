@@ -1,0 +1,5 @@
+pre-commit:
+  parallel: false
+  commands:
+    biome:
+      run: pnpm format && pnpm eslint:fix && pnpm check-types

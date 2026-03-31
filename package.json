@@ -6,20 +6,18 @@
     "build": "next build",
     "start": "next start",
     "check-types": "npx tsc --noEmit --jsx react-jsx",
-    "eslint": "eslint src/**/*.ts*",
-    "eslint:fix": "eslint src/**/*.ts* --fix",
-    "format": "prettier --write \"src/**/*.{tsx,ts,js,json,css,scss}\"",
+    "eslint": "biome lint --files-ignore-unknown=true src",
+    "eslint:fix": "biome lint --write --files-ignore-unknown=true src",
+    "format": "biome format --write --files-ignore-unknown=true src",
     "lint": "npm run eslint&&npm run check-types",
     "lint:fix": "npm run format&&npm run eslint:fix&&npm run check-types",
-    "prepare": "husky install"
+    "prepare": "lefthook install --reset-hooks-path; lefthook install"
   },
   "dependencies": {
     "@types/node": "^22.19.15",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vercel/analytics": "^1.6.1",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "^14.2.35",
     "next": "^16.2.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
@@ -27,12 +25,7 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^7.18.0",
-    "eslint-config-prettier": "^9.1.2",
-    "eslint-plugin-simple-import-sort": "^12.1.1",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.5.2",
-    "prettier": "^3.8.1"
+    "@biomejs/biome": "^2.4.10",
+    "lefthook": "^2.1.4"
   }
 }
