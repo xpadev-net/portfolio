@@ -1,0 +1,8 @@
+pre-commit:
+  parallel: false
+  commands:
+    biome:
+      glob: "*.{ts,tsx,js,json,css,scss}"
+      run: pnpm biome check --write --files-ignore-unknown=true {staged_files}
+    types:
+      run: pnpm check-types
